@@ -33,7 +33,7 @@
             <a href="#questions" class="nav-link">Questions</a>
           </li>
           <li class="nav-item">
-            <a href="./faq.html" class="nav-link">FAQ</a>
+            <a href="./faq.html" class="nav-link">FAQs</a>
           </li>
         </ul>
       </div>
@@ -66,16 +66,19 @@
     <!-- newsletter -->
     <section class="bg-warning text-dark p-5">
         <div class="container">
+          <form action="https://formspree.io/f/xlezjlpn"
+                  method="POST">
             <div class="d-md-flex justify-content-between align-items-center">
                 <h3 class="mb-3 mb-md-0">Sign up For Newsletter</h3>
 
                 <div class="input-group news-input">
-                    <input type="text" class="form-control" placeholder="Enter Email" 
-                    >
+                  
+                    <input type="text" class="form-control" placeholder="Enter Email" >
 
-                    <button class="btn btn-dark btn-lg" type="button">
+                    <button class="btn btn-dark btn-lg" type="submit">
                         
                         Button</button>
+                  </form>
                   </div>
 
             </div>
@@ -183,6 +186,31 @@
         </div>
       </section>
 
+      <section id="family" class="p-5">
+        <div class="container">
+          <div class="row align-items-center justify-content-between">
+            <div class="col-md">
+              <div class="ratio ratio-16x9">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/1mPrRZn1MkM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-sm p-5">
+              <h2>Meet Us</h2>
+              <p class="lead">
+                Come hang out, wether it be to train, hangout or meet new people.
+                <br> So Lace-em Up!  
+              </p>
+              <p>
+                
+              </p>
+              <!-- <a target="_self" href="./faq.html" class="btn btn-warning mt-3">
+                <i class="bi bi-chevron-right"></i> Read More
+              </a> -->
+            </div>
+          </div>
+        </div>
+      </section>
+
       <!-- Frequently Asked Questions -->
 
       <section id="questions" class="p-5">
@@ -190,7 +218,7 @@
               <h2 class="text-center mb-4">
                 Frequently Asked Questions
                 <a target="_self" href="./faq.html" class="btn btn-warning mt-3 m-3">
-                  <i class="bi bi-chevron-right"></i> Go To FAQ
+                  <i class="bi bi-chevron-right"></i>FAQs
                 </a>
               </h2>
 
@@ -275,7 +303,7 @@
                 </li>
                 <li class="list-group-item">
                   <span class="fw-bold">Facebook Group:</span>
-                  <a href="https://www.facebook.com/groups/phantomracing" target="_blank">facebook.com/groups/phantomracing</a>
+                  <a href="https://www.facebook.com/groups/phantomracing" target="_blank">facebook groups phantomracing</a>
                 </li>
               </ul>
             </div>
@@ -309,7 +337,8 @@
         <div class="modal-body">
           <!-- Form -->
           <p class="lead">Fill out this form and we will get back to you</p>
-          <form>
+          <form action="https://formspree.io/f/xbjwgkkr"
+          method="POST">
               <div class="mb-3">
                   <label for="first-name" class="col-form-label">
                       First Name:
@@ -328,12 +357,19 @@
                 <label for="phone" class="col-form-label">Phone:</label>
                 <input type="tel" class="form-control" id="phone" />
               </div>
+              <div class="mb-3">
+                <label>
+                  Your message:
+                  <textarea class="bb-3" name="message"></textarea>
+                </label>
+              </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="submit" class="btn btn-warning">Submit</button>
+                </div>  
           </form>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-warning">Save changes</button>
-        </div>
+        
       </div>
     </div>
   </div>
