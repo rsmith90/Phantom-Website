@@ -11,19 +11,16 @@
 </head>
 <body>
  <!-- Navbar -->
- <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
     <div class="container">
       <a target="_self" href="./index.html" class="navbar-brand text-warning">Phantom Racing</a>
-
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navmenu"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
       <div class="collapse navbar-collapse" id="navmenu">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
@@ -43,48 +40,44 @@
     <!-- Main -->
     <section class="bg-dark text-light pt-4 p-lg-0 pt-lg-5 text-center text-sm-start">
         <div class="container">
-            <div class="d-md-flex align-item-center justify-content-between">
-                <div>
-                    <h1>Become A <span class="text-warning m-2">PhantomSkater</span></h1>
-                
-                    <p class="lead my-4 m-2">We focus on developing youth/adults the basics of speed skating and technique. With focus on positive Virtues to ensure Champion Spirits rise to the challenges of tomorrows competitions. If you enjoy skating, mentoring or cheering on your favorites; we have a place for <span class="text-warning">YOU!</span> 
-                    </p>
-                    <button 
-                      class="btn btn-warning btn-lg m-2" 
-                      data-bs-toggle="modal" 
-                      data-bs-target="#enroll"
+          <div class="d-md-flex align-item-center justify-content-between">
+            <div>
+              <h1>Become A <span class="text-warning m-2">PhantomSkater</span></h1>
+                <p class="lead my-4 m-2">We focus on developing youth/adults the basics of speed skating and technique. With focus on positive Virtues to ensure Champion Spirits rise to the challenges of tomorrows competitions. If you enjoy skating, mentoring or cheering on your favorites; we have a place for <span class="text-warning">YOU!</span> </p>
+                  <button 
+                    class="btn btn-warning btn-lg m-2" 
+                    data-bs-toggle="modal" 
+                    data-bs-target="#enroll"
                     >Get Information
-                    </button>
-                </div>
+                  </button>
+            </div>
               <div>  
                 <img class="img-fluid w-100 d-none d-sm-block" src="./pictures/hi-res-team.JPEG" alt="phantom-logo">
               </div>
-            </div>
+          </div>
         </div>
     </section>
-    <!-- newsletter -->
-    <section class="bg-warning text-dark p-5">
+<!-- newsletter/line cutter -->
+    <section class="bg-warning text-dark p-2">
         <div class="container">
-          <form action="https://formspree.io/f/xlezjlpn"
-                  method="POST">
+<!--      <form action="https://formspree.io/f/xlezjlpn" 
+                  method="POST"
+                  name="newsletter">
             <div class="d-md-flex justify-content-between align-items-center">
                 <h3 class="mb-3 mb-md-0">Sign up For Newsletter</h3>
-
                 <div class="input-group news-input">
-                  
-                    <input type="text" class="form-control" placeholder="Enter Email" >
-
-<!-- 
-                    <label for="email" class="col-form-label">Email:</label>
-                    <input type="email" class="form-control" id="email" /> -->
-
-                    <button class="btn btn-dark btn-lg" type="submit">
-                        
-                        Submit</button>
-                  </form>
-                  </div>
-
+                  <input  name="newsletter" 
+                          type="text"  
+                          class="form-control" 
+                          placeholder="Enter Email">
+                   <label for="email" class="col-form-label">Email:</label>
+                  <input type="email" class="form-control" id="email" /> 
+                  <button name="newsletter" class="btn btn-dark btn-lg" type="submit">    
+                  Submit</button> 
+                </div>
             </div>
+          </form> 
+-->
         </div>
     </section>
 
@@ -100,7 +93,7 @@
                         <i class="bi bi-laptop"></i>
                        </div>
                        <h3 class="card-title mb-3">
-                           Virtual
+                           Facebook
                        </h3>
                        <p class="card-text">
                            Allow us to guide you through practices at home through our facebook motivation. Getting in the flow of off-track exercises.
@@ -115,12 +108,12 @@
                          <i class="bi bi-people"></i>
                         </div>
                         <h3 class="card-title mb-3">
-                            Hybrid
+                            Youtube
                         </h3>
                         <p class="card-text">
                             Following along some of the greatest athletes exercises some even have their own training regiments, we may be able to point you in the direction of.
                         </p>
-                        <a target="_blank" href="https://www.youtube.com/c/Inlinespeedskater" class="btn btn-dark">Read more</a>
+                        <a target="_blank" href="https://www.youtube.com/c/Inlinespeedskater" class="btn btn-dark">Watch</a>
                      </div>
                 </div>
     <!-- 3rd box -->
@@ -135,13 +128,20 @@
                     <p class="card-text">
                         Come to practice to "Lace up, train and have fun" while working out on skates! We practice to be great, as well as stay in shape and motivate.
                     </p>
-                    <a href="#questions" class="btn btn-warning">Read more</a>
+                    <a href="#questions" class="btn btn-warning">Learn</a>
                     </div>
                 </div>
                 
             </div>
         </div>
     </section>
+
+
+<!-- line cutter -->
+    <!-- <section class="bg-warning text-dark p-5">
+      <div class="container">
+      </div>
+    </section> -->
 
     <!-- Learn Sections -->
     <section id="learn" class="p-5">
@@ -166,8 +166,15 @@
         </div>
       </section>
 
+      <!-- line cutter -->
+<section class="bg-warning text-dark p-1">
+  <div class="container">
+  </div>
+</section>
+
       <section id="learn" class="p-5 bg-dark text-light">
         <div class="container">
+          
           <div class="row align-items-center justify-content-between">
 
             <div class="col-md p-5">
@@ -189,12 +196,17 @@
         </div>
       </section>
 
-      <section id="family" class="p-5">
+      <section class="bg-warning text-dark p-2">
         <div class="container">
-          <div class="row align-items-center justify-content-between">
-            <div class="col-md">
+        </div>
+      </section>
+
+      <section id="family">
+        <div class="container">
+          <div class="row align-items-center justify-content-between p-5">
+            <div class="col-md" id='phantomVideo'>
               <div class="ratio ratio-16x9">
-                <iframe width="800" height="480" src="https://www.youtube.com/embed/1mPrRZn1MkM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="1080" height="800" src="https://www.youtube.com/embed/1mPrRZn1MkM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
             </div>
             <div class="col-md p-5">
@@ -216,7 +228,7 @@
 
       <!-- Frequently Asked Questions -->
 
-      <section id="questions" class="p-5">
+      <section id="questions" class="p-5" style="font-family: Arial, Helvetica, sans-serif; font-size: large;">
           <div class="container">
               <h2 class="text-center mb-4">
                 Frequently Asked Questions
@@ -286,7 +298,7 @@
       <!-- Contact/Map  -->
 
     <!-- Contact & Map -->
-    <section class="p-5">
+    <!-- <section class="p-5">
         <div class="container">
           <div class="row g-4">
             <div class="col-md">
@@ -298,9 +310,6 @@
                 <li class="list-group-item">
                   <span class="fw-bold">Enrollment Phone:</span> (937) 610-2827
                 </li>
-                <!-- <li class="list-group-item">
-                  <span class="fw-bold">Student Phone:</span> (333) 333-3333
-                </li> -->
                 <li class="list-group-item">
                   <span class="fw-bold">Enrollment Email:</span> phantomspeedskating@gmail.com
                 </li>
@@ -310,13 +319,10 @@
                 </li>
               </ul>
             </div>
-            <!-- <div class="col-md bg-secondary">
-                <p>can include map here (company registration required Robbie wrote this :D)</p>
-              <div id="map"></div> -->
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- Footer -->
 
@@ -340,35 +346,39 @@
         <div class="modal-body">
           <!-- Form -->
           <p class="lead">Fill out this form and we will get back to you</p>
-          <form action="https://formspree.io/f/xbjwgkkr"
+          <form action="https://formspree.io/f/xbjwgkkr" name="contactInfo"
           method="POST">
               <div class="mb-3">
-                  <label for="first-name" class="col-form-label">
-                      First Name:
-                  </label>
-                  <input type="text" class="form-control" id="first-name">
+                  <label for="first-name" class="col-form-label">First Name:</label>
+                  <input type="text" name="first-name" class="form-control" id="first-name">
               </div>
               <div class="mb-3">
                 <label for="last-name" class="col-form-label">Last Name:</label>
-                <input type="text" class="form-control" id="last-name" />
+                <input type="text" name="last-name" class="form-control" id="last-name" />
               </div>
               <div class="mb-3">
                 <label for="email" class="col-form-label">Email:</label>
-                <input type="email" class="form-control" id="email" />
+                <input type="email" name="email" class="form-control" id="email" required/>
               </div>
               <div class="mb-3">
                 <label for="phone" class="col-form-label">Phone:</label>
-                <input type="tel" class="form-control" id="phone" />
+                <input type="tel" name="phone" class="form-control" id="phone" />
               </div>
-              <div class="mb-3">
+              <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                <label for="floatingTextarea2">Comments</label>
+              </div>
+
+              <!-- <div class="mb-3 p-5">
                 <label>
                   Your message:
                   <textarea class="bb-3" name="message"></textarea>
                 </label>
-              </div>
+              </div> -->
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                   <button type="submit" class="btn btn-warning">Submit</button>
+                  <p>We'll email you back shortly!</p>
                 </div>  
           </form>
         </div>
